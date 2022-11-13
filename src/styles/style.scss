@@ -1,0 +1,56 @@
+@import '~normalize.css';
+
+// FONTS
+@import './components/fonts';
+
+// VARIABLES
+
+// INITIAL
+
+// FILES
+
+@import './components/container';
+@import './components/res';
+@import './components/main__page/logo';
+
+
+
+@import './components/main__page/header';
+@import './components/main__page/hero';
+
+
+@import './components/main__page/section-photo';
+@import './components/main__page/sportClub';
+@import './components/main__page/trainer';
+@import './components/main__page/prices';
+@import './components/main__page/footer';
+
+//news page
+
+@import './components/news_page/hero_news';
+@import './components/news_page/choice';
+
+//about  page
+
+@import './components/about_page/section__field';
+@import './components/about_page/about';
+@import './components/about_page/regulations';
+
+//slider
+
+@import './components/slider';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

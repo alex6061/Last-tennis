@@ -1,0 +1,139 @@
+
+.hero {
+    background-image: url('../assets/images/main_page/hero.jpg');
+    width: 100%;
+    height: max-content;  
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero {
+        background-image: url('../assets/images/main_page/hero__2x.jpg');
+    }
+  }
+
+.hero__title {
+    padding: 200px 0 75px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 67px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 70px;
+} 
+
+.hero__wrapper {
+    
+    
+    // flex-direction: row;
+    // height: 70px;
+
+    display: grid;
+    grid-template-columns:  9% 18%;;
+    align-items: ;
+}
+
+.hero__wrapper__link {
+    position: absolute;
+
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.hero__wrapper__button {
+    width: 64px;
+    height: 64px;
+    left: 8px;
+    top: 8px;
+    border-radius: 50%;
+    
+    background: #8D86C9;
+}
+
+.hero__wrapper__svg {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20px;
+    height: 16px;
+}
+
+
+.hero__cards {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 12px;
+
+    margin-top: 324px;
+
+
+}
+
+.hero__text {
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+
+
+color: #FFFFFF;
+} 
+
+.cards__item {
+    padding: 35px 40px 40px 35px;
+    display: flex;
+    
+    gap: 40px;
+    align-items: center;
+    background-color: #8D86C9;
+}
+
+.hero__item__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 17px;
+
+    color: #FFFFFF;
+}
+
+.hero__item__info {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    
+    color: #FFFFFF;
+}
+
+.cards__svg {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

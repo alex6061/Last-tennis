@@ -1,0 +1,72 @@
+.sportClub {
+    padding: 150px 0 0;
+}
+
+.sportClub__wrapper{
+    display:flex;
+    justify-content: center;
+}
+
+.sportClub__item__one {
+    position: relative;
+    z-index: 2;
+    top: 73px;
+    left: 67px;
+}
+
+.sportClub__item__img {
+
+    width: 526px;
+
+}
+
+.item__info {
+    position: relative;
+    z-index: 1;
+    background: #F7ECE1;
+    width: 636px;
+    padding: 70px 60px 84px 146px;
+}
+
+.sportClub__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+
+    color: #333333;
+
+    margin-bottom: 25px;
+}
+
+.sportClub__info {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #333333;
+
+    padding-bottom:35px ;
+}
+
+.sportClub__text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 29px;
+
+    color: #333333;
+
+    padding-bottom: 25px;
+
+}
+
+.sportClub__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

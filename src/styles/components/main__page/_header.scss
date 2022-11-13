@@ -1,0 +1,40 @@
+.header {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.header__wrappper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 30px 0;
+
+}
+
+.header_menu {
+    display: flex;
+    gap: 40px;
+}
+
+.header__menu__item a {
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__nav__svg-u {
+    width: 28px;
+    height: 19px;
+}
+
+.header__nav__svg-vk {
+    width: 24px;
+    height: 14px;
+}
+
+

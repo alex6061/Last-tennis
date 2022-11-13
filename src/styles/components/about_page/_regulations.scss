@@ -1,0 +1,91 @@
+.regulations {
+    padding-bottom: 120px;
+}
+
+.regulations__wrapper {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 74px;
+}
+
+.regulation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.regulation-list__item {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 29px;
+
+
+    color: #333333;
+
+    &:hover {
+        color: #8D86C9;
+        transition: 250ms;
+    }
+    &:active {
+        padding-left: 40px;
+    }
+}
+
+.regulations__item__inner {
+    margin-bottom: 40px;
+}
+
+.regulations__item__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+
+    color: #333333;
+
+    margin-bottom: 25px;
+}
+
+.regulation-list__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.regulation-list__inner__item {
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+
+
+color: #333333;
+
+}
+
+.regulation-list__inner li {
+    padding-left: 15px;
+}
+
+.regulation-list__inner li::marker {
+    content: url(../assets/images/marker.svg);
+    padding-left: 15px;
+}
+
+
+
+.regulations__item__text {
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+margin-bottom: 20px;
+color: #333333;
+}
+

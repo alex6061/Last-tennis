@@ -1,0 +1,46 @@
+.section__field {
+    padding-top: 80px;
+}
+
+.slider__button__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.field__wrapper {
+    padding: 25px 20px;
+    border-radius: 1px solid #F7ECE1;
+}
+
+.slider__field {
+    padding: 25px 20px;
+    border-radius: 1px solid #F7ECE1;
+}
+
+.slider__buttons {
+   display: flex;
+   gap: 5px;
+   justify-content: end;
+}
+
+.arrow__next {
+    width: 45px;
+    height: 45px;
+    background-color: #8D86C9;
+
+}
+
+.arrow__prev {
+    width: 45px;
+    height: 45px;
+    background-color: #8D86C9;
+
+}
+
+
+.arrow {
+    width: 13px;
+    height: 15px;
+}
+

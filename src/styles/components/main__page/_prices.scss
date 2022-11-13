@@ -1,0 +1,66 @@
+.prices {
+    padding-bottom: 150px;
+}
+
+.prices__wrapper {
+    // display: flex;
+    // flex-shrink: 1;
+    // justify-content: space-between;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 134px;
+}
+
+
+
+.section__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    margin-bottom: 75px;
+
+    color: #333333;
+}
+
+.prices__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section__link {
+    cursor: pointer;
+    padding: 15px 21px 15px 30px;
+    background: #8D86C9;
+    color: white;
+}
+
+    .section__svg {
+        width: 18px;
+        height: 20px;
+        float: right;
+    }
+
+
+.prices-slider__button__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services {
+    max-width: 636px;
+}
+
+.slide {
+    padding: 25px 30px ;
+    border: 1px solid #F7ECE1;
+
+}
+
+
+
+
+ 

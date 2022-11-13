@@ -1,0 +1,33 @@
+.footer {
+    background: #F7ECE1;
+    padding: 38px 0;
+}
+
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__rights {
+    opacity: 0.3;
+}
+
+.footer_nav {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+}
+
+.footer_menu li a {
+    color: #333333;
+}
+
+.footer__nav {
+    display: flex;
+    gap: 25px;
+}
+
+.footer__nav__svg {
+    height: 20px;
+}
