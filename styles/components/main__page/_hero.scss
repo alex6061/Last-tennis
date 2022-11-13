@@ -37,7 +37,6 @@
 
     display: grid;
     grid-template-columns:  9% 18%;;
-    align-items: ;
 }
 
 .hero__wrapper__link {
@@ -76,6 +75,10 @@
     gap: 12px;
 
     margin-top: 324px;
+
+    @media screen and (max-width:1200px) {
+        display: none;
+    }
 
 
 }

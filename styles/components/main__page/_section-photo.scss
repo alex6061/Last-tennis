@@ -5,6 +5,8 @@
 .section-photo__wrapper {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 .section-photo__item {
@@ -14,14 +16,6 @@
     padding: 25px 20px;
 }
 
-.section-photo__img {
-    // position: relative;
-}
-
-// .section-photo__item__inner {
-//     margin: 0 auto;
-    
-// }
 
 .section-photo__text {
     text-align: center;

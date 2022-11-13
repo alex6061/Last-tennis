@@ -118,12 +118,33 @@ body {
   align-items: center;
   padding: 40px 0 30px 0;
 }
-
-.header_menu {
-  display: flex;
-  gap: 40px;
+@media screen and (max-width: 960px) {
+  .header__wrappper {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
+@media screen and (max-width: 1110px) {
+  .header__logo__link {
+    display: none;
+  }
+}
+
+.header__menu {
+  display: flex;
+}
+
+.header__menu__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .header__menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .header__menu__item a {
   font-size: 18px;
   line-height: 140%;
@@ -210,6 +231,11 @@ body {
   gap: 12px;
   margin-top: 324px;
 }
+@media screen and (max-width: 1200px) {
+  .hero__cards {
+    display: none;
+  }
+}
 
 .hero__text {
   font-family: "Gilroy";
@@ -259,6 +285,7 @@ body {
 .section-photo__wrapper {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .section-photo__item {
