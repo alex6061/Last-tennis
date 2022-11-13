@@ -169,12 +169,20 @@ body {
 
 .hero {
   background-image: url("../assets/images/main_page/hero.jpg");
-  width: 100%;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
+  max-width: 100%;
+  height: auto;
   background-position: center;
   background-size: cover;
+}
+@media screen and (min-width: 1000px) {
+  .hero {
+    background-position: center;
+  }
+}
+@media screen and (min-width: 850px) {
+  .hero {
+    background-position: 50% 50%;
+  }
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -191,6 +199,11 @@ body {
   line-height: 67px;
   color: #FFFFFF;
   margin-bottom: 70px;
+}
+@media screen and (max-width: 800px) {
+  .hero__title {
+    font-size: 30px;
+  }
 }
 
 .hero__wrapper {
@@ -285,7 +298,11 @@ body {
 .section-photo__wrapper {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+}
+@media screen and (max-width: 1280px) {
+  .section-photo__wrapper {
+    flex-wrap: wrap;
+  }
 }
 
 .section-photo__item {
